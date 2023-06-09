@@ -9,13 +9,13 @@
     android:layout_margin="20dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1_JUAN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/textView_user" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText1_JUAN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -26,13 +26,13 @@
         android:textColorHint="#8D6E63" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView2_JUAN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/textView_clave" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editText2_JUAN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -55,28 +55,55 @@
         app:columnCount="4">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3_JUAN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/textView_user1" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView4_JUAN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/textView_getuser1"
+            android:layout_marginRight="30dp"/>
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView5_JUAN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/textView_clave1" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView6_JUAN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/textView_getclave1" />
+
+        <TextView
+            android:id="@+id/textView7_JUAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_user2"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/textView8_JUAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_getuser2" />
+
+        <TextView
+            android:id="@+id/textView9_JUAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_clave2"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/textView10_JUAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_getclave2" />
     </androidx.gridlayout.widget.GridLayout>
 
 

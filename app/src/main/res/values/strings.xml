@@ -39,4 +39,18 @@
     <string name="editText_user">Ingrese el usuario</string>
     <string name="editText_clave">Ingrese la contraseña</string>
     <string name="button_ingresar">Ingresar</string>
+
+    <string name="textView_user1">Usuario 1:</string>
+    <string name="textView_user2">Usuario 2:</string>
+
+    <string name="textView_clave1">Contraseña 1:</string>
+    <string name="textView_clave2">Contraseña 2:</string>
+
+    <string name="textView_getuser1">Juan</string>
+    <string name="textView_getuser2">Mario</string>
+    <string name="textView_getclave1">123</string>
+    <string name="textView_getclave2">12345</string>
+
+
+
 </resources>
