@@ -16,6 +16,13 @@
         android:theme="@style/Theme.Pizarra"
         tools:targetApi="31">
         <activity
+            android:name=".Login_JuanAlejandro"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".IniciarSesion_Juan_Alejandro"
             android:exported="true">
             <intent-filter>
